@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Checkout</title>
+ <link rel="stylesheet" href="check.css" media="all">
+
+ <meta name="viewport" content="width=device-width,initial-scale=1.0 user-scalable=no">
+</head>
+
+<body>
+
+  <p class="title">My Checkout Page</p>
+
+<div class="main">
+
+<form name="frm">
+Course:<select name="crs" onchange="checkx()"  onchange="checky()" class="course">
+
+<option>Select Course</option>
+<option>VFX</option>
+<option>Coding</option>
+<option>Photoshop</option>
+<option>Forex</option>
+<option>NFT</option>
+</select>
+
+<br><br>
+
+Quantity:<input type="number" name="qty" onkeyup="checky()" onchange="checky()" class="qty">
+
+<br><br>
+
+Unit Price:<input type="text" name="prz" readonly class="unit">
+
+<br><br>
+
+Total:<input type="text" name="ttl" readonly class="tots">
+<br>
+
+<div class="last">
+ <input type="submit" value="Enroll Now!" name="st" class="btn" >
+<div>
+
+</form>
+
+</div>
+
+
+<script src="check.js"></script>
+</body>
+
+
+</html>

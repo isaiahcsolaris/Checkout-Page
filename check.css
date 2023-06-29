@@ -1,0 +1,103 @@
+body{
+  background-color:rgb(125, 167, 184);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input{
+  outline: none;
+}
+
+select{
+  outline: none;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:50px;
+}
+
+.course{
+  margin-left:40px;
+  padding:5px;
+  font-size:14px;
+  font-weight:bold;
+  border:3px solid blue;
+  border-radius:5px;
+}
+
+.qty{
+  margin-left:23px;
+  padding:5px;
+  font-size:14px;
+  font-weight:bold;
+  border:3px solid blue;
+  border-radius:5px;
+  color:blue;
+}
+
+.unit{
+  margin-left:12px;
+  padding:5px;
+  font-size:14px;
+  font-weight:bold;
+  border:3px solid blue;
+  border-radius:5px;
+  color:blue;
+}
+
+.tots{
+  margin-left:55px;
+  padding:5px;
+  font-size:14px;
+  font-weight:bold;
+  border:3px solid blue;
+  border-radius:5px;
+  color:blue;
+}
+
+.last{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:10px;
+  margin-left: 20%;
+}
+
+.btn{
+  background-color:blue;
+  color:white;
+  padding:10px;
+  border:2px white solid;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight: bold;
+}
+
+@media(max-width:710px){
+  body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(26, 171, 255);
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .unit{
+    margin-left: 15px;
+  }
+
+  .tots{
+    margin-left: 47px;
+  }
+  
+}
